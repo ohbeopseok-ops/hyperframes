@@ -1,0 +1,15 @@
+{
+  "_name": "netflix-ko (UNVERIFIED - 원문 대조 필요)",
+  "_note": "넷플릭스 한국어 Timed Text Style Guide 원문에 접근하지 못해 일반적으로 알려진 값으로 채움. 사용 전 원문과 대조해 수정할 것.",
+  "max_chars_per_line": 16,
+  "max_lines": 2,
+  "max_cps": 12,
+  "min_duration": 0.833,
+  "max_duration": 7.0,
+  "min_gap_frames": 2,
+  "fps": 30,
+  "max_word_gap": 0.6,
+  "tail_pad": 0.1,
+  "commas_to_space": true,
+  "strip_trailing_period": true
+}
