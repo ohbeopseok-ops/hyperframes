@@ -325,6 +325,7 @@ _SENT_END = re.compile(r"[.?!…]$")
 
 
 def clean_token(tok: str, prof: dict) -> str:
+    tok = tok.strip()
     if prof.get("commas_to_space"):
         tok = tok.replace(",", "")
     return tok
